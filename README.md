@@ -83,4 +83,8 @@ O projeto necessita no mínimo Node versão 16 ou maior, e mysql 8 ou maior.
 
 ### configurando backend
 
-<p>Crie um arquivo /backend/.env utilizando o arquivo example.env como exemplo. Adicione sua senha do banco de dados na variável DATABASE_PASSWORD, e se necessário altere outras variáveis para se adequar ao seu ambiente. Importe o dump que se encontra em /backend/dump ao seu mysql, e por último inicie o projeto a partir do script <code>npm run start:dev</code> ou <code>yarn start:dev</code></p/>
+Crie um arquivo /backend/.env utilizando o arquivo example.env como exemplo. Adicione sua senha do banco de dados na variável DATABASE_PASSWORD, e se necessário altere outras variáveis para se adequar ao seu ambiente. 
+
+Requisito opcional: Importe o dump que se encontra em /backend/dump ao seu mysql para melhor visualização dos dados profissionais no dashboard.
+
+Por último inicie o projeto a partir do script <code>npm run start:dev</code> ou <code>yarn start:dev</code>
