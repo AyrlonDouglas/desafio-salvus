@@ -15,7 +15,9 @@ A Salvus é uma empresa no âmbito de tecnologia para saúde, com foco principal
 aplicações IoMT (Internet of Medical Things) e softwares para ajudar na produtividade e
 velocidade das empresas na prestação de serviços médicos.
 </p>
+
 ## Problema a Resolver
+
 <p>
 Entrar em contato com diversos profissionais de saúde para tentar criar uma rede de
 profissionais capazes de atender em diferentes localidades do país, para isso é necessário
@@ -49,7 +51,9 @@ entrar em contato com o Salvus.
     <li>yup</li>
     
 </ul>
+
 ## Principais tecnologias utilizadas no backend
+
 <ul>
     <li>NestJs</li>
     <li>Typescript</li>
