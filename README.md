@@ -55,11 +55,16 @@ entrar em contato com o Salvus.
 ## Principais tecnologias utilizadas no backend
 
 <ul>
+    <li>Node</li>
     <li>NestJs</li>
     <li>Typescript</li>
     <li>mysql2</li>
     <li>typeorm</li> 
 </ul>
+
+### Requesito
+
+O projeto necessita no mínimo Node versão 16 ou maior, e mysql 8 ou maior.
 
 ## Clonando o repositório
 <code>$ git clone https://github.com/AyrlonDouglas/desafio-salvus.git</code>
