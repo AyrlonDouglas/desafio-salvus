@@ -8,7 +8,6 @@ import { User } from './users/entities/user.entity';
 import { AuthModule } from './auth/auth.module';
 import { configuration } from 'env';
 import { ProfessionalsModule } from './professionals/professionals.module';
-import { CreateProfissionals1665972315021 } from './database/migrations/1665972315021-CreateProfissionals';
 import { Professional } from './professionals/entities/professional.entity';
 @Module({
   imports: [
@@ -23,7 +22,7 @@ import { Professional } from './professionals/entities/professional.entity';
       entities: [User, Professional],
       synchronize: true,
       autoLoadEntities: true,
-      migrations: [CreateProfissionals1665972315021],
+     
     }),
     UsersModule,
     AuthModule,
