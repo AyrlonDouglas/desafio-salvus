@@ -73,9 +73,9 @@ O projeto necessita no mínimo Node versão 16 ou maior, e mysql 8 ou maior.
 
 <p>Após o clone, entre na pasta frontend utilizando <code>cd frontend</code>, dentro da pasta utilize <code>npm install</code> ou <code>yarn</code> para instalar as dependências, após isto, utilize <code>npm run dev</code> ou <code>yarn dev</code> para rodar.</p>
 
-#### Observação
-<p>O projeto necessita do backend, siga oos próximos passos para configurá-lo.</p>
-<p>Após configurado porta do backend, adicione um arquivo .env e crie a varávél de ambiente VITE_HOST_URL com o valor da porta como mostrado no arquivo example.env</p>
+#### Configurando frontend
+
+<p>É necessário configurar a porta de conexão com o backend. Crie um arquivo /frontend/.env e crie a varávél de ambiente VITE_HOST_URL com o valor da porta do backend como mostrado no arquivo example.env</p>
 
 ## Rodando o backend
 
@@ -83,4 +83,4 @@ O projeto necessita no mínimo Node versão 16 ou maior, e mysql 8 ou maior.
 
 ### configurando backend
 
-<p>Crie um arquivo .env utilizando o arquivo example.env como exemplo. Adicione sua senha do banco de dados na variável DATABASE_PASSWORD, e se necessário altere outras variáveis para se adequar ao seu ambiente. Importe o dump que se encontra em /backend/dump ao seu mysql, e por último inicie o projeto a partir do script <code>npm run start:dev</code> ou <code>yarn start:dev</code></p/>
+<p>Crie um arquivo /backend/.env utilizando o arquivo example.env como exemplo. Adicione sua senha do banco de dados na variável DATABASE_PASSWORD, e se necessário altere outras variáveis para se adequar ao seu ambiente. Importe o dump que se encontra em /backend/dump ao seu mysql, e por último inicie o projeto a partir do script <code>npm run start:dev</code> ou <code>yarn start:dev</code></p/>
